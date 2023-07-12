@@ -1,0 +1,43 @@
+@import '../../node_modules/slim-select/dist/slimselect.css';
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to left, #8e9eab, #eef2f3);;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  width: 800px;
+  height: 600px;
+}
+
+.cat-info {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: x-large;
+}
+
+.breed-select {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+  background-color: #8e9eab;
+  border-radius: 10;
+  margin-bottom: 10px;
+}
